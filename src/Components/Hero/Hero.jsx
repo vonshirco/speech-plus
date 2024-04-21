@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='hero container' id='hero'>
         <div className='hero-text'>
-            <h1>We Empower Education Through Professional Staffing and Remote Therapy Solutions.</h1>
+            <h1>We Empower Education Through Professional Staffing and Remote Therapy Solutions</h1>
             <p>Emphasizing tele-therapy, we expand access to professionals, keeping pace with technology.</p>
             <Link to='services' spy={true} smooth={true} duration={500} className='btn'>Explore More<img src={white_arrow} alt=''/></Link>
         </div>
