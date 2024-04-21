@@ -1,0 +1,124 @@
+.application {
+  margin: 80px auto;
+  max-width: 90%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.application-col {
+  flex-basis: 48%;
+  color: #026ac5;
+}
+
+.application-col h3 {
+  color: #ff9900;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.application-img{
+  width: 100%;
+  max-width: 415px; /* Set a maximum width for the image */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.application-col p {
+  max-width: 450px;
+  list-style: 0.3;
+}
+
+.application-col form {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-col label {
+  margin-top: 10px;
+}
+
+.application-col input,
+.application-col button {
+  margin-top: 5px;
+  padding: 15px;
+  background: #ebecfe;
+  border: 0;
+  outline: 0;
+}
+
+.application-col textarea {
+  margin-top: 5px;
+  padding: 15px;
+  background: #ebecfe;
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+
+.application-col button {
+  margin-top: 12px;
+  padding: 12px;
+  background-color: #ff9900;
+  color: white;
+  cursor: pointer;
+  width: 28%; /* Ensure button takes full width */
+  align-self: center; /* Center the button horizontally */
+}
+
+/*Upload Button*/
+.file-upload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #3c8fd8;
+  border: none;
+  border-radius: 5px;
+}
+
+.custom-file-upload:hover {
+  background-color: #026ac5;
+}
+
+input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
+}
+
+
+.application-col span {
+  display: block;
+  margin: 20px 0;
+}
+
+/*------- media query ------*/
+
+@media (max-width: 700px) {
+  .application {
+    display: block; /* Both Columns aligned vertically */
+  }
+  .application-col {
+    padding: 20px;
+  }
+}
