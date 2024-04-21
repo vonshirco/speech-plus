@@ -8,7 +8,7 @@ const Virtual = () => {
         
         <div className="about-right">
             {/* <h3>About Our Founder</h3> */}
-            <h2>Leading the Way with Virtual Services</h2>
+            <h2>Setting the Standard in Virtual Services</h2>
             <p> In today's fast-changing educational sphere, our mission focuses 
                 on enhancing student achievement through quality virtual services, 
                 ensuring no student is left behind.</p>
